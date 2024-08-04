@@ -1,5 +1,7 @@
 # Program-Manajemen-Perpustakaan
 
+https://github.com/user-attachments/assets/1cde2e48-1221-4916-8bde-c00856d3d8e8
+
   Program Manajemen Perpustakaan ini dibuat menggunakan struktur data binary search tree. Program ini memiliki fitur berupa menambahkan buku, menampilkan semua buku yang tersedia, mencari buku berdasarkan ID dari buku, dan menghapus buku berdasarkan ID buku.
 
   ID dari buku sendiri dibuat berdasarkan urutan abjad dari masing-masing huruf pada judul buku. ID ini akan menentukan posisi buku dalam tree (jika ID buku tersebut bukan sebagai root atau data pertama yang masuk dalam tree). Collision handling dalam program ini aktif apabila terdapat ID buku yang sama. ID buku yang sama yang baru dimasukkan akan dikalikan 2 sehingga tidak ada ID buku yang sama. Jika dimasukkan buku dengan judul yang sama, maka buku yang akan dimasukkan akan ditolak.
